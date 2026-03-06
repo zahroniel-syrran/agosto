@@ -15,10 +15,11 @@ programa
 	inteiro qtd_cavalos, ferraduras
 	funcao inicio()
 	{
+	    escreva("Haras Cavalos Brilhantes\n\n\n\n")
         escreva("Quantos cavalos foram comprados? ")
         leia(qtd_cavalos)
         ferraduras = 4*qtd_cavalos
-        escreva("Foram comprados: ",qtd_cavalos," e são necessários ",ferraduras," ferraduras")
+        escreva("\n\nForam comprados: ",qtd_cavalos," e são necessários ",ferraduras," ferraduras")
 	}
 }
 
